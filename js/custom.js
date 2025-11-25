@@ -148,6 +148,8 @@ window.onSpotifyWebPlaybackSDKReady = () => {
     const redirectUri = 'https://m0nch1.github.io/visual-mv/';
     const scopes = [
       'streaming',
+      'user-read-birthdate',
+      'user-read-email',
       'user-read-private',
       'user-modify-playback-state',
       'app-remote-control'
